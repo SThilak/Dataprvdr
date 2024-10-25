@@ -43,5 +43,6 @@ public class DevQa {
 	TakesScreenshot ts = (TakesScreenshot) driver;
 		File Source = ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(Source, new File("C:\\Users\\D E L L\\Desktop\\ts\\Adactinpage=.png"));
+		System.out.println("Adctin Dataprovider done successfully");
 	}
 }
